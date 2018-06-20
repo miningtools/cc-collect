@@ -17,7 +17,7 @@
   "gnetId": null,
   "graphTooltip": 0,
   "id": 1,
-  "iteration": 1529488662454,
+  "iteration": 1529493322000,
   "links": [],
   "panels": [
     {
@@ -3383,7 +3383,7 @@
       "id": 95,
       "panels": [],
       "repeat": null,
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 42,
       "scopedVars": {
         "gpu": {
@@ -3447,7 +3447,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 43,
       "repeatedByRow": true,
       "scopedVars": {
@@ -3558,7 +3558,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 44,
       "repeatedByRow": true,
       "scopedVars": {
@@ -3711,7 +3711,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 46,
       "repeatedByRow": true,
       "scopedVars": {
@@ -3864,7 +3864,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 48,
       "repeatedByRow": true,
       "scopedVars": {
@@ -4017,7 +4017,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 45,
       "repeatedByRow": true,
       "scopedVars": {
@@ -4190,7 +4190,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 94,
       "repeatedByRow": true,
       "scopedVars": {
@@ -4383,7 +4383,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 47,
       "repeatedByRow": true,
       "scopedVars": {
@@ -4486,7 +4486,7 @@
       "id": 103,
       "panels": [],
       "repeat": null,
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 42,
       "scopedVars": {
         "gpu": {
@@ -4550,7 +4550,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 43,
       "repeatedByRow": true,
       "scopedVars": {
@@ -4661,7 +4661,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 44,
       "repeatedByRow": true,
       "scopedVars": {
@@ -4814,7 +4814,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 46,
       "repeatedByRow": true,
       "scopedVars": {
@@ -4967,7 +4967,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 48,
       "repeatedByRow": true,
       "scopedVars": {
@@ -5120,7 +5120,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 45,
       "repeatedByRow": true,
       "scopedVars": {
@@ -5293,7 +5293,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 94,
       "repeatedByRow": true,
       "scopedVars": {
@@ -5486,7 +5486,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 47,
       "repeatedByRow": true,
       "scopedVars": {
@@ -5589,7 +5589,7 @@
       "id": 111,
       "panels": [],
       "repeat": null,
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 42,
       "scopedVars": {
         "gpu": {
@@ -5653,7 +5653,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 43,
       "repeatedByRow": true,
       "scopedVars": {
@@ -5764,7 +5764,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 44,
       "repeatedByRow": true,
       "scopedVars": {
@@ -5917,7 +5917,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 46,
       "repeatedByRow": true,
       "scopedVars": {
@@ -6070,7 +6070,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 48,
       "repeatedByRow": true,
       "scopedVars": {
@@ -6223,7 +6223,7 @@
       "pointradius": 5,
       "points": false,
       "renderer": "flot",
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 45,
       "repeatedByRow": true,
       "scopedVars": {
@@ -6396,7 +6396,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 94,
       "repeatedByRow": true,
       "scopedVars": {
@@ -6589,7 +6589,7 @@
           "to": "null"
         }
       ],
-      "repeatIteration": 1529488662454,
+      "repeatIteration": 1529493322000,
       "repeatPanelId": 47,
       "repeatedByRow": true,
       "scopedVars": {
@@ -6691,7 +6691,6 @@
       {
         "allValue": null,
         "current": {
-          "selected": true,
           "tags": [],
           "text": "rig1",
           "value": "rig1"
@@ -6703,7 +6702,7 @@
         "multi": false,
         "name": "host",
         "options": [],
-        "query": "SHOW TAG VALUES FROM \"pool\" WITH KEY = \"host\"",
+        "query": "SHOW TAG VALUES FROM \"summary\" WITH KEY = \"host\"",
         "refresh": 1,
         "regex": "",
         "sort": 0,
@@ -6726,7 +6725,7 @@
         "multi": false,
         "name": "instance",
         "options": [],
-        "query": "SHOW TAG VALUES FROM \"pool\" WITH KEY = \"instance\"   WHERE host =~ /$host/",
+        "query": "SHOW TAG VALUES FROM \"summary\" WITH KEY = \"instance\"   WHERE host =~ /$host/",
         "refresh": 1,
         "regex": "",
         "sort": 3,
@@ -6794,5 +6793,5 @@
   "timezone": "browser",
   "title": "Ccminer Dashboard",
   "uid": "nGEQJnRRk",
-  "version": 76
+  "version": 77
 }
