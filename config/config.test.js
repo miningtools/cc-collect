@@ -1,9 +1,10 @@
 
 var config = require('./config.global');
 
-config.env = 'test';
+config.env = 'test';                     // dev || test || prod
 
-config.log_level = 'info';  //debug || info || warning ||error
-config.log_mode = 'both';    // console || file || both
+config.log_level = 'debug';             // error || warn || info || debug || silly
+config.log_mode = 'console';            // console || file || both
+
 
 module.exports = config;

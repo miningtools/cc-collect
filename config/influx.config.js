@@ -6,7 +6,7 @@ var influx={};
 influx.db = {
 	host:'localhost',
 	port:'8086',
-	database:'cc-collect'
+	name:'cc-collect'
 }
 
 influx.schema = 

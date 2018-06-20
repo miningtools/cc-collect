@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+
 const Config = require('./config/config');
 
 var daemon = require("daemonize2").setup(Config.daemon);
@@ -9,25 +10,25 @@ if (process.getuid() != 0) {
 }
 
 daemon
-    .on("starting", function() {
+    .on("starting", function () {
         console.log("Starting daemon...");
     })
-    .on("started", function(pid) {
+    .on("started", function (pid) {
         console.log("Daemon started. PID: " + pid);
     })
-    .on("stopping", function() {
+    .on("stopping", function () {
         console.log("Stopping daemon...");
     })
-    .on("stopped", function(pid) {
+    .on("stopped", function (pid) {
         console.log("Daemon stopped.");
     })
-    .on("running", function(pid) {
+    .on("running", function (pid) {
         console.log("Daemon already running. PID: " + pid);
     })
-    .on("notrunning", function() {
+    .on("notrunning", function () {
         console.log("Daemon is not running");
     })
-    .on("error", function(err) {
+    .on("error", function (err) {
         console.log("Daemon failed to start:  " + err.message);
     });
 
@@ -47,7 +48,7 @@ switch (process.argv[2]) {
         break;
 
     case "restart":
-        daemon.stop(function(err) {
+        daemon.stop(function (err) {
             daemon.start();
         });
         break;

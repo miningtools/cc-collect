@@ -1,6 +1,6 @@
 {
   "name": "cc-collect",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js InfluxDB collector from ccminer api for Grafana",
   "main": "index.js",
   "scripts": {
