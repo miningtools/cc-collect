@@ -1,8 +1,13 @@
 # cc-collect
 ccminer collector for InfluxDB & Grafana
 
+![alt text]( https://drive.google.com/uc?id=17jISPvGw8gNrFWY1PF0ZnjHbY77w2wQJ "")
+
+<!--
+
 ![alt text](https://drive.google.com/uc?id=1Q5iT3clOF7OPv9e2VLKE_7ecmujArJSn "")
 
+-->
 
 ## Getting Started
 
