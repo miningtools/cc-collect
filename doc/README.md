@@ -1,6 +1,9 @@
 # cc-collect
 ccminer collector for InfluxDB & Grafana
 
+![alt text](https://drive.google.com/uc?id=1Q5iT3clOF7OPv9e2VLKE_7ecmujArJSn "")
+
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development, testing  and purposes. 
@@ -128,10 +131,40 @@ or without config file
 > collector@host:~$ cd cc-collect/
 >
 > collector@host:~/cc-collect/$ npm install
+>
+> collector@host:~/cc-collect/$ cp ./config/hosts.config.sample.js ./config/hosts.config.js
 
 ### Config cc-collect 
 
- #todo
+
+hosts config file: config/hosts.config.js (**need to edit before first run cc-collect**)
+```
+...
+  { name: 'rig1a', address: 'localhost', port: 4086 },
+  { name: 'rig1b', address: '127.0.0.1', port: 4087 },
+  { name: 'rig2', address: '10.236.6.200', port: 4087 },
+...
+```
+
+daemon config file: config/daemon.config.js
+```
+...
+    user: "collector",
+    group: "collector",
+...
+```
+
+InfluxDB config file: config/influx.config.js
+```
+...
+influx.db = {
+        host:'localhost',
+        port:'8086',
+        name:'cc-collect'
+}
+...
+```
+
 
 ### Create cc-collect service
 #todo
