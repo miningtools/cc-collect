@@ -53,7 +53,7 @@ Grafana 5.1.3 - the leading open source software for time series analytics
 
 ### Create user for cc-collect service 
 
-> youruser@host:~$ sudo useradd --home-dir /home/collector --create-home --shell /bin/bash --system --user-group --groups sudo collector
+> user@host:~$ sudo useradd --home-dir /home/collector --create-home --shell /bin/bash --system --user-group --groups sudo collector
 >
 > user@host:~$ sudo passwd collector 
 >
@@ -120,7 +120,7 @@ or without config file
 ##### windows
 > C:\ccminer> ccminer -a x16r -o stratum+tcp://pool.minecore.pro:3636 -u RWa29h6rcWZ8bjZSNBk83wjqg7T9CCaYmw -p c=RVN --api-bind=0.0.0.0:4086 --api-allow=0/0
 ##### linux 
->  youruser@yourrig:/opt/ccminer$ ./ccminer -a x16r -o stratum+tcp://pool.minecore.pro:3636 -u RWa29h6rcWZ8bjZSNBk83wjqg7T9CCaYmw -p c=RVN --api-bind=0.0.0.0:4086 --api-allow=0/0
+>  user@rig:/opt/ccminer$ ./ccminer -a x16r -o stratum+tcp://pool.minecore.pro:3636 -u RWa29h6rcWZ8bjZSNBk83wjqg7T9CCaYmw -p c=RVN --api-bind=0.0.0.0:4086 --api-allow=0/0
 
 
 
@@ -303,6 +303,8 @@ or
 
 ---
 
+
+
 ## Versioning
 
 * v1.0.1.
@@ -317,3 +319,6 @@ See also the list of [contributors](https://github.com/miningtools/cc-collect/co
 
 This project is licensed under the GNU License - see the [LICENSE.md](https://github.com/miningtools/cc-collect/blob/master/LICENSE) file for details
 
+# Download & config preinstalled vmware image (Ubuntu 18.04 LTS)
+
+ [Download & config preinstalled vmware image (Ubuntu 18.04 LTS)](https://github.com/miningtools/cc-collect/doc/download_and_config_preinstalled_ubuntu_vmware_image.md) 
