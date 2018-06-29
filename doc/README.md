@@ -321,4 +321,4 @@ This project is licensed under the GNU License - see the [LICENSE.md](https://gi
 
 # Download & config preinstalled vmware image (Ubuntu 18.04 LTS)
 
- [Download & config preinstalled vmware image (Ubuntu 18.04 LTS)](https://github.com/miningtools/cc-collect/doc/download_and_config_preinstalled_ubuntu_vmware_image.md) 
+ [Download & config preinstalled vmware image (Ubuntu 18.04 LTS)](https://github.com/miningtools/cc-collect/blob/master/doc/download_and_config_preinstalled_ubuntu_vmware_image.md) 
