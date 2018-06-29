@@ -37,7 +37,7 @@ or without config file
 
 
 #### 3. unrar UBUNTU-COLLECTSRV.rar
-#### 4. import UBUNTU-COLLECTSRV.ovf to vmware player
+#### 4. import UBUNTU-COLLECTSRV.ovf to vmware player  (V.14.x required)
 #### 5. start virtual machine and log in with ubuntu/ubuntu
 #### 6. open terminal window
 
