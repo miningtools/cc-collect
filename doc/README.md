@@ -3,11 +3,6 @@ ccminer collector for InfluxDB & Grafana
 
 ![alt text]( https://drive.google.com/uc?id=17jISPvGw8gNrFWY1PF0ZnjHbY77w2wQJ "")
 
-<!--
-
-![alt text](https://drive.google.com/uc?id=1Q5iT3clOF7OPv9e2VLKE_7ecmujArJSn "")
-
--->
 
 ## Getting Started
 
@@ -172,7 +167,57 @@ influx.db = {
 
 
 ### Create cc-collect service
-#todo
+
+> collector@host:~/cc-collect/$ sudo su - 
+
+> root@host:~$ cat  <<'EOF' > /lib/systemd/system/cc-collect.service
+>
+> [Unit]
+>
+> Description=cc-collect is an open-source ccminer collector
+> 
+> Documentation=https://github.com/miningtools/cc-collect
+>  
+> After=network-online.target
+>
+> &nbsp;
+> 
+> [Service]
+> 
+> Type=forking
+> 
+> Environment=NODE_ENV=prod
+> 
+> WorkingDirectory=/home/collector/cc-collect/
+> 
+> ExecStart=/home/collector/cc-collect/cc-collect start
+> 
+> ExecStop=/home/collector/cc-collect/cc-collect stop
+> 
+> Restart=always
+> 
+> StandardOutput=syslog
+> 
+> StandardError=syslog
+>
+> SyslogIdentifier=cc-collect
+>
+> &nbsp; 
+>
+> [Install]
+>
+> WantedBy=multi-user.target
+>
+> Alias=cc-collect.service
+>
+> EOF
+
+> root@host:~$ systemctl daemon-reload
+> 
+> root@host:~$ exit
+
+
+
 ### Enable cc-collect service
 
 > collector@host:~$ sudo systemctl enable cc-collect
@@ -258,11 +303,6 @@ or
 
 ---
 
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Versioning
 
 * v1.0.1.
@@ -277,8 +317,3 @@ See also the list of [contributors](https://github.com/miningtools/cc-collect/co
 
 This project is licensed under the GNU License - see the [LICENSE.md](https://github.com/miningtools/cc-collect/blob/master/LICENSE) file for details
 
-## Acknowledgments
-
-* Inspiration
-* etc
- 
