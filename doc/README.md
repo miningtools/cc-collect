@@ -95,7 +95,7 @@ cc-collect
 
 > collector@host:~$ sudo service grafana-server restart
 
-### Enable ccminer API acces on rigs
+### Enable ccminer API access on rigs
  
 sample config file :
 ```
